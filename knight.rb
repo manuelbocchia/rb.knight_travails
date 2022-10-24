@@ -89,6 +89,7 @@ class Node
     
     def initialize(x, y, parent = @parent)
         @square = Square.new(x, y)
+        @parent = parent
     end
 
     # def child_nodes(start = [@square.x,@square.y], parent = @parent)
